@@ -1,5 +1,3 @@
-@charset utf-8;
-
 body {
 font-family:'Roboto Condensed',sans-serif;
 background-color:#ccc;
@@ -20,11 +18,9 @@ h1,h2,h3 {
 text-align:center;
 padding:20px;
 }
-
+/* pagebox */
 .pagebox {
 border-radius:15px;
--moz-box-shadow:inset 0 0 10px #000;
--webkit-box-shadow:inset 0 0 10px #000;
 box-shadow:inset 0 0 10px #000;
 background-color:#fff;
 width:940px;
@@ -34,8 +30,6 @@ padding:40px;
 
 .siteheader {
 border-radius:15px;
--webkit-box-shadow:3px 3px 5px 6px #ccc;
--moz-box-shadow:3px 3px 5px 6px #ccc;
 box-shadow:3px 3px 5px 6px #ccc;
 background-color:#f0f0f0;
 margin-bottom:30px;
@@ -44,11 +38,8 @@ min-height:100px;
 }
 
 .maincontent {
--webkit-box-shadow:3px 3px 5px 6px #ccc;
--moz-box-shadow:3px 3px 5px 6px #ccc;
 box-shadow:3px 3px 5px 6px #ccc;
 background-color:#eddcba;
-maincontentbackground-color:#eddcba;
 width:100%;
 }
 
@@ -57,9 +48,8 @@ background-color:#f0f0f0;
 margin-bottom:30px;
 width:100%;
 min-height:100px;
-ptext-align:left;
 }
-
+/* links */
 ul {
 list-style:square outside none;
 }
